@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* your custom styles (optional) */
+:root { --bg: #0b1017; --card: #111827; }
+html, body, #root { height: 100%; }
+body { /* Tailwind utilities via @apply */ @apply bg-slate-900 text-slate-100; }
+button:disabled { @apply opacity-60 cursor-not-allowed; }
